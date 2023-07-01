@@ -1,0 +1,96 @@
+
+.col-first {
+    margin: -200px 100px 0px 0px;
+}
+.login_form_inner_register {
+    width: 700px;
+    /*margin-left: 50px;*/
+}
+/*.login_form_inner {*/
+/*    margin-left: 50px;*/
+/*}*/
+
+.login_form_inner_login_form_inner_register {
+    padding: 10px 20px;
+    /*background-color: #333;*/
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form-submit{
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    /*margin-left: 240px;*/
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+}
+.form-group_register a{
+    margin-left: 250px;
+    color: black;
+}
+.d-flex_register a{
+    color: black;
+}
+.login_form_inner_register h2{
+    margin-left: 250px;
+}
+.d-flex_register i{
+    color: black;
+}
+.register-a{
+    margin-left: 15px;
+}
+.error-register{
+    color: red;
+}
+.label_register{
+    text-align: left;
+    font-weight: bolder;
+}
+.pass-register #password{
+    width:100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#password_confirmation{
+    padding: 20px;
+
+}
+.form_register{
+    background-color: #f6f6f6;
+    padding: 20px;
+    margin-top: -30px;
+
+}
+.password_confirmation{
+    height: 47.38px;
+
+}
+.col-md-12.form-group_register {
+    margin-top: 20px;
+}
+.login_form_inner_register.form_register h2 {
+    margin-top: 30px;
+}
+
+
+/*.background_form{*/
+/*    background-image: url("/public/img/Nike.jpg ");*/
+/*   !*background-size: 1000px;*!*/
+/*    height: 100%;*/
+/*background-size: 100%;*/
+/*    margin-top: -60px;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+/*.banner-area{*/
+/*    background-color: #ffffff;*/
+/*}*/

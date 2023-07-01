@@ -1,0 +1,150 @@
+.login_form_inner {
+    padding: 30px;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+}
+h4 {
+    margin-top: 20px;
+    margin-left: -455px;
+    margin-bottom: 100px;
+    text-align: center;
+    /* font-size: 30px; */
+}
+a.primary-btn.btn-create-login {
+    margin-top: 50px;
+}
+.login_form_inner h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.login_form .form-group {
+    margin-bottom: 20px;
+}
+
+.login_form .form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login_form .form-group .creat_account {
+    display: flex;
+    align-items: center;
+}
+
+.login_form .form-group .creat_account input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.login_form .form-group .creat_account label {
+    font-size: 14px;
+}
+
+.login_form .form-group button.primary-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login_form .form-group a {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+}
+.hover {
+    margin: -200px;
+}
+
+.col-lg-6 {
+    /* margin-left: 10px; */
+}
+
+.login_form_inner {
+    margin-left: 50px;
+}
+
+/*a {*/
+/*    margin-top: 500px;*/
+/*}*/
+
+button.primary-btn {
+    /*     display: flex;
+        justify-content: center; */
+    /*margin-left: 120px;*/
+    width: 100%;
+    height: 60px;
+}
+
+.form-group .col-md-12 a {
+    /* display: flex; */
+    margin-left: 180px;
+    /* justify-content: center; */
+}
+
+.col-lg-6 img{
+    height: 435px;
+    width: 650px;
+    
+}
+
+.hover{
+    margin-left: 200px;
+    margin-top: -400px;
+    color: white;
+}
+.hover-login{
+    margin-left: 200px;
+    margin-top: -297px;
+    color: white;
+}
+input#username {
+    width: 520px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+input#password {
+    width: 520px;
+    height: 50px;
+    border-radius: 10px;
+    /*border-color:orange ;*/
+}
+.col-md-12.form-group input{
+    text-align: center;
+
+}
+.login_form_inner h3{
+    text-align: center;
+}
+.creat_account {
+    margin-left: 190px;
+}
+.login_a{
+    text-align: center;
+}
+
+.btn_login {
+    text-align: center;
+}
+.btn-create-login{
+    border-radius: 10px;
+    /*height: 60px;*/
+/*padding-top: -10px*/
+/*    margin-top: -10px;*/
+}
+a.primary-btn.btn-create-login {
+    padding-top: -0px;
+    height: 50px;
+}
+

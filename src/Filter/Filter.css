@@ -1,0 +1,111 @@
+/* styles.css or ProductCard.css */
+
+.product-card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category-list {
+    /* Styles for the category list */
+}
+
+/*.product-list {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(4, 1fr); !* Adjust the number (4) based on your needs *!*/
+/*    grid-gap: 20px; !* Adjust the gap between products *!*/
+/*}*/
+
+/*.body-pro{*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 5fr;*/
+/*    !*grid-column-gap: -100px;*!*/
+/*}*/
+/*.filter-productsList ul li{*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(1,1fr);*/
+/*}*/
+/* Filter.css */
+.categorylist li:hover {
+    background-color: #eeeeee;
+}
+
+.body-pro {
+    display: grid;
+grid-template-columns: 1fr 4fr;
+    margin-left: -120px;
+
+}
+
+.categorylist {
+    width: 250px;
+    height: 550px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+   }
+.categorylist li{
+    cursor: pointer;
+    list-style-type: none;
+    padding-left: -10px;
+}
+
+.filter-productsList ul {
+    display: grid;
+    /*flex-wrap: wrap;*/
+    list-style-type: none;
+    grid-template-columns: repeat(4,1fr);
+    padding: 0;
+    margin: 0;
+}
+
+.filter-productsList li {
+    width: 300px; /* Each product item occupies 25% of the container width to achieve 4 products per row */
+    padding: 10px;
+}
+
+.single-product {
+/*height: 350px;*/
+    width: 300px;
+}
+.col-lg-3 .col-md-6{
+    height: 350px;
+}
+img.img-fluid.list-pro-filter {
+    width: 300px;
+    height: 250px;
+}
+.single-product .img-fluid{
+    width: 300px;
+    height: 250px;
+    margin-bottom: 15px;
+}
+.pagination{
+    padding-left: 400px;
+}
+.pagination button{
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+/* Add any additional styling as per your requirements */
+
+/*.category{*/
+/*    margin-left: 80px;*/
+/*    background-color: white;*/
+/*    height: 400px;*/
+/*    width: 280px;*/
+/*    padding: 20px;*/
+/*    margin-top:90px ;*/
+/*}*/
+.pagination-btn.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.pagination-btn.clicked {
+    border-color: #999999;
+    color: #999999;
+
+
+}
+

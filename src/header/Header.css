@@ -1,0 +1,678 @@
+/*.gray-bg {*/
+/*    background: #f9f9ff;*/
+/*}*/
+
+/*.section-title {*/
+/*    margin-bottom: 50px;*/
+/*}*/
+
+/*.section-title h1 {*/
+/*    font-size: 36px;*/
+/*}*/
+
+/*.section-title p {*/
+/*    margin-bottom: 0;*/
+/*}*/
+
+/*.primary-btn {*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*    color: #fff;*/
+/*    padding: 0 30px;*/
+/*    line-height: 50px;*/
+/*    border-radius: 50px;*/
+/*    display: inline-block;*/
+/*    text-transform: uppercase;*/
+/*    font-weight: 500;*/
+/*    cursor: pointer;*/
+/*    -webkit-transition: all 0.3s ease 0s;*/
+/*    -moz-transition: all 0.3s ease 0s;*/
+/*    -o-transition: all 0.3s ease 0s;*/
+/*    transition: all 0.3s ease 0s;*/
+/*}*/
+
+/*.primary-btn:before {*/
+/*    position: absolute;*/
+/*    left: -145px;*/
+/*    top: 0;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    content: "";*/
+/*    background: #000;*/
+/*    opacity: 0;*/
+/*    -webkit-transform: skew(40deg);*/
+/*    -moz-transform: skew(40deg);*/
+/*    -ms-transform: skew(40deg);*/
+/*    -o-transform: skew(40deg);*/
+/*    transform: skew(40deg);*/
+/*    -webkit-transition: all 0.3s ease 0s;*/
+/*    -moz-transition: all 0.3s ease 0s;*/
+/*    -o-transition: all 0.3s ease 0s;*/
+/*    transition: all 0.3s ease 0s;*/
+/*}*/
+
+/*.primary-btn:hover {*/
+/*    color: #fff;*/
+/*}*/
+
+/*.primary-btn:hover:before {*/
+/*    left: 180px;*/
+/*    opacity: .3;*/
+/*}*/
+.no-padding {
+    padding: 0;
+}
+
+/* back to top */
+a.cd-top {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    /* image replacement properties */
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: #ff6c00 url("https://thinhweb.com/wp-content/themes/thinhweb/images/cd-top-arrow.svg") no-repeat center 50%;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+}
+
+a.cd-top.cd-is-visible, a.cd-top.cd-fade-out, .no-touch a.cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+}
+
+a.cd-top, a.cd-top:visited, a.cd-top:hover {
+    color: #CCCCCC;
+    text-decoration: none;
+}
+
+a.cd-top.cd-is-visible {
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 1;
+}
+
+a.cd-top.cd-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    opacity: 1;
+}
+
+/*end btt */
+
+.section_gap {
+    padding: 100px 0;
+}
+
+@media (max-width: 991px) {
+    .section_gap {
+        padding: 80px 0;
+    }
+}
+
+.section_gap_top_75 {
+    padding: 75px 0;
+}
+
+@media (max-width: 991px) {
+    .section_gap_top_75 {
+        padding: 70px 0;
+    }
+}
+
+.section_gap_75 {
+    padding: 75px 0;
+}
+
+@media (max-width: 991px) {
+    .section_gap_75 {
+        padding: 70px 0;
+    }
+}
+
+.section_gap_top {
+    padding-top: 100px;
+}
+
+@media (max-width: 991px) {
+    .section_gap_top {
+        padding-top: 80px;
+    }
+}
+
+.section_gap_bottom {
+    padding-bottom: 100px;
+}
+
+@media (max-width: 991px) {
+    .section_gap_bottom {
+        padding-bottom: 80px;
+    }
+}
+.gray-bg {
+    background: #f9f9ff;
+}
+.section-title {
+    margin-bottom: 50px;
+}
+
+.section-title h1 {
+    font-size: 36px;
+}
+
+.section-title p {
+    margin-bottom: 0;
+}
+.gradient-bg, .primary-btn, .add-bag .add-btn, .single-product .product-details .prd-bottom .social-info span:after, .grid-btn:hover, .list-btn:hover, .grid-btn.active, .list-btn.active, .pagination a.active, .pagination a:hover, .s_Product_carousel .owl-dots div.active, .s_product_text .card_area .icon_btn:after, .product_description_area .nav.nav-tabs li a.active, .blog-pagination .page-item.active .page-link, .single-footer-widget .click-btn {
+    background: -webkit-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    background: -moz-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    background: -o-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+}
+
+.gradient-bg-reverse, #search_input_box {
+    background: -webkit-linear-gradient(270deg, #ffba00 0%, #ff6c00 100%);
+    background: -moz-linear-gradient(270deg, #ffba00 0%, #ff6c00 100%);
+    background: -o-linear-gradient(270deg, #ffba00 0%, #ff6c00 100%);
+    background: linear-gradient(270deg, #ffba00 0%, #ff6c00 100%);
+}
+.gradient-bg-reverse, #search_input_box {
+    background: -webkit-linear-gradient(270deg, #ffba00 0%, #ff6c00 100%);
+    background: -moz-linear-gradient(270deg, #ffba00 0%, #ff6c00 100%);
+    background: -o-linear-gradient(270deg, #ffba00 0%, #ff6c00 100%);
+    background: linear-gradient(270deg, #ffba00 0%, #ff6c00 100%);
+}
+.gradient-color, .s_product_text h2, .s_product_text .list li a.active, .product_description_area .tab-content .total_rate .box_total h4, .single-footer-widget .bb-btn {
+    background: -webkit-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    background: -moz-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    background: -o-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.primary-btn {
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    padding: 0 30px;
+    line-height: 50px;
+    border-radius: 50px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.primary-btn:before {
+    position: absolute;
+    left: -145px;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #000;
+    opacity: 0;
+    -webkit-transform: skew(40deg);
+    -moz-transform: skew(40deg);
+    -ms-transform: skew(40deg);
+    -o-transform: skew(40deg);
+    transform: skew(40deg);
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.primary-btn:hover {
+    color: #fff;
+}
+
+.primary-btn:hover:before {
+    left: 180px;
+    opacity: .3;
+}
+
+.button-area {
+    background: #fff;
+}
+
+.button-area .border-top-generic {
+    padding: 70px 15px;
+    border-top: 1px dotted #eee;
+}
+.sample-text-area {
+    background: #fff;
+    padding: 100px 0 70px 0;
+}
+
+.typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
+    color: #777777;
+}
+
+.button-group-area .genric-btn {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.button-group-area .genric-btn:last-child {
+    margin-right: 0;
+}
+
+.genric-btn {
+    display: inline-block;
+    outline: none;
+    line-height: 40px;
+    padding: 0 30px;
+    font-size: .8em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.genric-btn:focus {
+    outline: none;
+}
+
+.genric-btn.e-large {
+    padding: 0 40px;
+    line-height: 50px;
+}
+
+.genric-btn.large {
+    line-height: 45px;
+}
+
+.genric-btn.medium {
+    line-height: 30px;
+}
+
+.genric-btn.small {
+    line-height: 25px;
+}
+
+.genric-btn.radius {
+    border-radius: 3px;
+}
+
+.genric-btn.circle {
+    border-radius: 20px;
+}
+
+.genric-btn.arrow {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.genric-btn.arrow span {
+    margin-left: 10px;
+}
+
+.genric-btn.default {
+    color: #222222;
+    background: #f9f9ff;
+    border: 1px solid transparent;
+}
+
+.genric-btn.default:hover {
+    border: 1px solid #f9f9ff;
+    background: #fff;
+}
+
+.genric-btn.default-border {
+    border: 1px solid #f9f9ff;
+    background: #fff;
+}
+
+.genric-btn.default-border:hover {
+    color: #222222;
+    background: #f9f9ff;
+    border: 1px solid transparent;
+}
+
+.genric-btn.primary {
+    color: #fff;
+    background: #ffba00;
+    border: 1px solid transparent;
+}
+
+.genric-btn.primary:hover {
+    color: #ffba00;
+    border: 1px solid #ffba00;
+    background: #fff;
+}
+
+.genric-btn.primary-border {
+    color: #ffba00;
+    border: 1px solid #ffba00;
+    background: #fff;
+}
+
+.genric-btn.primary-border:hover {
+    color: #fff;
+    background: #ffba00;
+    border: 1px solid transparent;
+}
+
+.genric-btn.success {
+    color: #fff;
+    background: #4cd3e3;
+    border: 1px solid transparent;
+}
+
+.genric-btn.success:hover {
+    color: #4cd3e3;
+    border: 1px solid #4cd3e3;
+    background: #fff;
+}
+
+.genric-btn.success-border {
+    color: #4cd3e3;
+    border: 1px solid #4cd3e3;
+    background: #fff;
+}
+
+.genric-btn.success-border:hover {
+    color: #fff;
+    background: #4cd3e3;
+    border: 1px solid transparent;
+}
+
+.genric-btn.info {
+    color: #fff;
+    background: #38a4ff;
+    border: 1px solid transparent;
+}
+
+.genric-btn.info:hover {
+    color: #38a4ff;
+    border: 1px solid #38a4ff;
+    background: #fff;
+}
+
+.genric-btn.info-border {
+    color: #38a4ff;
+    border: 1px solid #38a4ff;
+    background: #fff;
+}
+
+.genric-btn.info-border:hover {
+    color: #fff;
+    background: #38a4ff;
+    border: 1px solid transparent;
+}
+
+.genric-btn.warning {
+    color: #fff;
+    background: #f4e700;
+    border: 1px solid transparent;
+}
+
+.genric-btn.warning:hover {
+    color: #f4e700;
+    border: 1px solid #f4e700;
+    background: #fff;
+}
+
+.genric-btn.warning-border {
+    color: #f4e700;
+    border: 1px solid #f4e700;
+    background: #fff;
+}
+
+.genric-btn.warning-border:hover {
+    color: #fff;
+    background: #f4e700;
+    border: 1px solid transparent;
+}
+
+.genric-btn.danger {
+    color: #fff;
+    background: #f44a40;
+    border: 1px solid transparent;
+}
+
+.genric-btn.danger:hover {
+    color: #f44a40;
+    border: 1px solid #f44a40;
+    background: #fff;
+}
+
+.genric-btn.danger-border {
+    color: #f44a40;
+    border: 1px solid #f44a40;
+    background: #fff;
+}
+
+.genric-btn.danger-border:hover {
+    color: #fff;
+    background: #f44a40;
+    border: 1px solid transparent;
+}
+
+.genric-btn.link {
+    color: #222222;
+    background: #f9f9ff;
+    text-decoration: underline;
+    border: 1px solid transparent;
+}
+
+.genric-btn.link:hover {
+    color: #222222;
+    border: 1px solid #f9f9ff;
+    background: #fff;
+}
+
+.genric-btn.link-border {
+    color: #222222;
+    border: 1px solid #f9f9ff;
+    background: #fff;
+    text-decoration: underline;
+}
+
+.genric-btn.link-border:hover {
+    color: #222222;
+    background: #f9f9ff;
+    border: 1px solid transparent;
+}
+
+.genric-btn.link {
+    color: #222222;
+    background: #f9f9ff;
+    text-decoration: underline;
+    border: 1px solid transparent;
+}
+
+.genric-btn.link:hover {
+    color: #222222;
+    border: 1px solid #f9f9ff;
+    background: #fff;
+}
+
+.genric-btn.link-border {
+    color: #222222;
+    border: 1px solid #f9f9ff;
+    background: #fff;
+    text-decoration: underline;
+}
+
+.genric-btn.link-border:hover {
+    color: #222222;
+    background: #f9f9ff;
+    border: 1px solid transparent;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+ul.nav.navbar-nav.navbar-right {
+    /* float: right; */
+    margin-left: 200px;
+}
+
+ul.nav.navbar-nav.menu_nav.ml-auto {
+    margin-left: 42px;
+}
+.image_banner{
+    width: 1680px;
+    height: 200px;
+}
+i.fa-solid.fa-cart-shopping {
+    color: black;
+}
+
+i.fa-solid.fa-user {
+    color: black;
+    margin-left:-10px;
+}
+
+i.fa-solid.fa-magnifying-glass {
+    color: black;
+    position: relative;
+}
+
+div#navbarSupportedContent {
+    margin-left: 130px;
+}
+li{
+    margin-left: 20px;
+}
+.nav-item.submenu.dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+}
+
+.nav-item.submenu.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-item.submenu.dropdown .dropdown-menu li {
+    margin-bottom: 10px;
+}
+
+.nav-item.submenu.dropdown .dropdown-menu li:last-child {
+    margin-bottom: 0;
+}
+
+.nav-item.submenu.dropdown .dropdown-menu a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 5px 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-item.submenu.dropdown .dropdown-menu a:hover {
+    background-color: #f6f6f6;
+}
+input#search_input {
+    background: whitesmoke;
+    height: 50px;
+}
+/* Các phần CSS khác không thay đổi */
+
+.user-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.user-icon:hover .user-menu {
+    display: block;
+}
+
+.user-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-width: 120px;
+    border-radius: 10px;
+
+}
+.user-menu li a{
+    width: 100px;
+
+}
+.user-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.user-menu li {
+    margin-bottom: 5px;
+    list-style: none;
+
+}
+.user-menu li:hover {
+    background-color:#eeeeee;
+}
+
+.user-menu a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+.navbar-nav li {
+    position: relative;
+}
+
+.navbar-nav li .user-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.navbar-nav li:hover .user-menu {
+    display: block;
+}
+
+.navbar-nav li .user-menu li {
+    margin-bottom: 5px;
+}
+
+.navbar-nav li .user-menu a {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-nav li .user-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Các phần CSS khác không thay đổi */
+
+
+

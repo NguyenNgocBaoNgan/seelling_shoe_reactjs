@@ -1,0 +1,20 @@
+.order-confirm {
+    text-align: center;
+}
+
+.order-confirm h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #333;
+}
+.order-confirm p{
+    font-size: 20px;
+}
+
+.order-confirm__image {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+/* Các quy tắc CSS khác tùy ý */

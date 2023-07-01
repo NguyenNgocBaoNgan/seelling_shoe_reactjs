@@ -1,0 +1,67 @@
+.active-product-area {
+    padding: 30px;
+}
+.filter-productsList {
+    background-color: #f6f6f6f6;
+}
+input.ant-input.css-dev-only-do-not-override-1wazalj {
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.single-product {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input.ant-input.css-dev-only-do-not-override-12jzuas {
+    width: 100%;
+    height: 50px;
+}
+button.ant-btn.css-dev-only-do-not-override-1wazalj.ant-btn-primary.ant-input-search-button {
+    width: 100px;
+    height: 50px;
+    background: #ffba00;
+}
+/*.categorylist {*/
+/*    margin-left: 120px;*/
+/*}*/
+
+.filter-productsList ul {
+    display: grid;
+    /* flex-wrap: wrap; */
+    list-style-type: none;
+    grid-template-columns: repeat(4,1fr);
+    padding: 0;
+    margin: 0;
+}
+.single-product {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.single-product {
+    /* height: 350px; */
+    width: 300px;
+}
+input.ant-input.css-dev-only-do-not-override-12jzuas {
+    font-size: 25px;
+    text-align: center;
+}
+svg {
+    width: 30px;
+    height: 30px;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    text-align: center;
+    /*font-size: 30px;*/
+}

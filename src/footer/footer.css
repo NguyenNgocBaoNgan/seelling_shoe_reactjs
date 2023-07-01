@@ -1,0 +1,25 @@
+.footer-area{
+    background-color: black;
+}
+.single-footer-widget{
+    color: white;
+}
+h6{
+    color: white;
+margin-top: 500px;
+}
+
+i{
+    color: white;
+}
+a{
+    color: white;
+    margin-right: 20px;
+}
+.single-footer-widget {
+    width: 600px;
+}
+.image_shoes{
+    width: 500px;
+    /*height: 450px;*/
+}
